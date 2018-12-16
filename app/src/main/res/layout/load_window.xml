@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:alpha="0.5"
+      android:background="@android:color/black"
+      ></FrameLayout>
+
+  <LinearLayout
+      android:id="@+id/ly_load_borad"
+      android:layout_width="300dp"
+      android:layout_height="150dp"
+      android:layout_centerInParent="true"
+      android:layout_margin="20dp"
+      android:background="@drawable/window_yuanjiao"
+      android:orientation="vertical"
+      >
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="借呗正在申请中"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="申请进度"
+        android:textColor="@color/color_font"
+
+        />
+    <com.mayi.mayijiebei.ProgressViewTest
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="正在申请姓名："
+        android:textColor="@android:color/black"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_userphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="正在申请号码："
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_daikuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="申请额度100，000额度"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="清理负面记录"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="增强信用分"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="制作交易记录"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="制作学历学籍"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="制作车辆信息"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="制作住房公积金"
+        android:textColor="@android:color/black"
+        />
+  </LinearLayout>
+
+</RelativeLayout>
